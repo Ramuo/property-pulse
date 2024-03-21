@@ -1,4 +1,4 @@
-
+import Link from 'next/link';
 
 export const metadata = {
     titre: "test"
@@ -6,7 +6,10 @@ export const metadata = {
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div>
+      <h1 className="text-3xl">Welcome</h1>
+      <Link href="/properties">Montrer les offres</Link>
+    </div>
   )
 }
 
