@@ -1,15 +1,16 @@
-import Link from 'next/link';
+import Hero from "@/components/Hero";
+import InfoBoxes from "@/components/InfoBoxes";
+import HomeProperties from "@/components/HomeProperties";
 
-export const metadata = {
-    titre: "test"
-}
+
 
 const HomePage = () => {
   return (
-    <div>
-      <h1 className="text-3xl">Welcome</h1>
-      <Link href="/properties">Montrer les offres</Link>
-    </div>
+    <>
+      <Hero/>
+      <InfoBoxes/>
+      <HomeProperties/>
+    </>
   )
 }
 
