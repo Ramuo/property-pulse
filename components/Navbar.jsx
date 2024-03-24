@@ -54,6 +54,7 @@ const Navbar = () => {
                 <Image
                 className='h-10 w-auto' 
                 src={logo}
+                priority={true}
                 alt='PropertyPulse' 
                 />
   
@@ -147,6 +148,7 @@ const Navbar = () => {
                       className='h-8 w-8 rounded-full'
                       src={profileDefault}
                       alt=''
+                      priority={true}
                     />
                   </button>
                 </div>
