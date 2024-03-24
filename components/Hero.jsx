@@ -34,7 +34,7 @@ const Hero = () => {
                         className="w-full px-4 py-3 rounded-lg bg-white text-gray-800 focus:outline-none focus:ring focus:ring-blue-500"
                     >
                         <option value="All">Tous</option>
-                        <option value="Apartment">Apartment</option>
+                        <option value="Apartment">Appartment</option>
                         <option value="Studio">Studio</option>
                         <option value="Condo">Copropriété</option>
                         <option value="House">Maison</option>
