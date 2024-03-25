@@ -192,6 +192,9 @@ const Navbar = () => {
                         role='menuitem'
                         tabIndex='-1'
                         id='user-menu-item-0'
+                        onClick={() => {
+                          setIsProfileMenuOpen(false)
+                        }}
                     >
                         Voir Profil
                     </Link>
@@ -201,14 +204,21 @@ const Navbar = () => {
                         role='menuitem'
                         tabIndex='-1'
                         id='user-menu-item-2'
+                        onClick={() => {
+                          setIsProfileMenuOpen(false)
+                        }}
                     >
-                        Enregistrer des Proprietés
+                        Enregistrer Proprietés
                     </Link>
                     <button
-                        className='block px-4 py-2 text-sm text-gray-700'
-                        role='menuitem'
-                        tabIndex='-1'
-                        id='user-menu-item-2'
+                      className='block px-4 py-2 text-sm text-gray-700'
+                      role='menuitem'
+                      tabIndex='-1'
+                      id='user-menu-item-2'
+                      onClick={() => {
+                        setIsProfileMenuOpen(false);
+                        signOut()
+                      }}
                     >
                         Deconnexion
                     </button>
