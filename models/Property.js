@@ -71,11 +71,13 @@ const PropertySchema = new Schema(
         type: String,
       },
     },
-    images: [
-      {
-        type: String,
+    images: {
+      type: [String],
+      validate: {
+        validator: (v) => v.length <= 4,
+        message: (props) => `Ne peut contenir au maximum 4 images, mais à réçu ${props.value.length}`
       },
-    ],
+    },
     is_featured: {
       type: Boolean,
       default: false,
