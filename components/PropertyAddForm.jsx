@@ -42,7 +42,7 @@ const PropertyAddForm = () => {
                 </select>
             </div>
             <div className="mb-4">
-                <label className="block text-gray-700 font-bold mb-2">Nom de Propriété</label>
+                <label className="block text-gray-700 font-bold mb-2">Nom de la Propriété</label>
                 <input
                     type="text"
                     id="name"
@@ -205,7 +205,7 @@ const PropertyAddForm = () => {
                             value="24/7 Security"
                             className="mr-2"
                         />
-                        <label htmlFor="amenity_24_7_security">Securité 24/7</label>
+                        <label htmlFor="amenity_24_7_security">Securité 24h/24</label>
                     </div>
                     <div>
                         <input
@@ -215,7 +215,7 @@ const PropertyAddForm = () => {
                             value="Wheelchair Accessible"
                             className="mr-2"
                         />
-                        <label htmlFor="amenity_wheelchair_accessible">Accessible aux fauteuils roulants</label>
+                        <label htmlFor="amenity_wheelchair_accessible">Accessible aux handicapés</label>
                     </div>
                     <div>
                         <input
@@ -255,7 +255,7 @@ const PropertyAddForm = () => {
                             value="Air Conditioning"
                             className="mr-2"
                         />
-                        <label htmlFor="amenity_air_conditioning">Climatisation</label>
+                        <label htmlFor="amenity_air_conditioning">Climatiseur</label>
                     </div>
                     <div>
                     <input
@@ -291,7 +291,7 @@ const PropertyAddForm = () => {
             </div>
 
             <div className="mb-4 bg-blue-50 p-4">
-                <label className="block text-gray-700 font-bold mb-2">Avis (Laissez vide si non applicable)</label>
+                <label className="block text-gray-700 font-bold mb-2">Prix (Laissez vide si non applicable)</label>
                 <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
                     <div className="flex items-center">
                         <label htmlFor="weekly_rate" className="mr-2">Semaine</label>
@@ -326,7 +326,7 @@ const PropertyAddForm = () => {
             <div className="mb-4">
                 <label
                     htmlFor="seller_name"
-                    className="block text-gray-700 font-bold mb-2">Vendeur</label >
+                    className="block text-gray-700 font-bold mb-2">Propriétaire</label >
                 <input
                     type="text"
                     id="seller_name"
@@ -338,7 +338,7 @@ const PropertyAddForm = () => {
             <div className="mb-4">
                 <label
                     htmlFor="seller_email"
-                    className="block text-gray-700 font-bold mb-2">Email Vendeur</label> 
+                    className="block text-gray-700 font-bold mb-2">Email Propriétaire</label> 
                 <input
                     type="email"
                     id="seller_email"
@@ -351,7 +351,7 @@ const PropertyAddForm = () => {
             <div className="mb-4">
                 <label
                     htmlFor="seller_phone"
-                    className="block text-gray-700 font-bold mb-2">Téléphone Vendeur</label>
+                    className="block text-gray-700 font-bold mb-2">Téléphone Propriétaire</label>
                 
                 <input
                     type="tel"
