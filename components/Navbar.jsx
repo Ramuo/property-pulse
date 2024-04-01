@@ -213,7 +213,7 @@ const Navbar = () => {
                           setIsProfileMenuOpen(false)
                         }}
                     >
-                        Enregistrer Proprietés
+                        Proprietés Enregistrées
                     </Link>
                     <button
                       className='block px-4 py-2 text-sm text-gray-700'
