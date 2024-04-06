@@ -1,5 +1,5 @@
 "use client"
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 import { useGlobalContext } from '@/context/GlobalContext';
 import {toast} from "react-toastify";
 
