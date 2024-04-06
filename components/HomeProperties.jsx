@@ -6,12 +6,11 @@ import {fetchProperties} from "@/utils/requests";
 
 
 const HomeProperties = async () => {
-    const properties = await fetchProperties();
+    const data = await fetchProperties();
 
-    //To sort propertie randomly then display three
-    const recentProperties = properties
-        .sort(() => Math.random() - Math.random())
-        .slice(0, 3);
+    const recentProperties = data.properties
+      .sort(() => Math.random() - Math.random())
+      .slice(0, 3);
 
 
     return (
